@@ -1,6 +1,7 @@
 table 90000 ABCourse
 {
     Description = 'Courses';
+    Caption = 'Courses';
     fields
     {
         field(10; Code; Code[10]) { }

@@ -1,8 +1,8 @@
 {
   "id": "9708954d-0c14-4020-a53c-e62624020435",
-  "name": "Training",
+  "name": "Course",
   "publisher": "EIE",
-  "version": "1.0.0.0",
+  "version": "1.16.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -28,8 +28,8 @@
   "platform": "16.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 90000,
+      "to": 90099
     }
   ],
   "showMyCode": true,

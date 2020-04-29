@@ -5,7 +5,7 @@
             "type": "al",
             "request": "launch",
             "name": "Microsoft Cloud Sandbox",
-          //  "server": "businesscentral.dynamics.com",
+            "server": "businesscentral.dynamics.com",
             "tenant": "c59a4e0a-d77a-4a88-86b1-198a97d3b88d",
             "sandboxName": "Sandbox",
             "startupObjectId": 22,
@@ -13,7 +13,8 @@
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode":"ForceSync"
         }
     ]
 }

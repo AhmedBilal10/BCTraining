@@ -29,6 +29,51 @@ page 90005 PracticePage
                     Mycodeunit.ItemInfo();
                 end;
             }
+            action(Switch)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+                    Mycodeunit.Switch();
+                end;
+            }
+            action(ForLoop)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+                    Mycodeunit.ForLoop();
+                end;
+            }
+            action(ForEachLoop)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+                    Mycodeunit.ForEachLoop();
+                end;
+            }
+            action(WhileDo)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+                    Mycodeunit.WhileDo();
+                end;
+            }
+            action(BreakStatement)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+                    Mycodeunit.BreakStatement();
+                end;
+            }
         }
     }
 
